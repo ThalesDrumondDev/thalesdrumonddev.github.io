@@ -1,5 +1,5 @@
 const textDisplay = document.querySelector('.profile__proficao')
-const phrases = ['Front-end Developer']
+const phrases = ['Front-end developer']
 let i = 0
 let j = 0 
 let currentPhrase = []
