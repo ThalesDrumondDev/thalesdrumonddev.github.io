@@ -52,10 +52,10 @@ img {
 .profile__perfil {
   width: 100px;
   height: 100px;
-  background: linear-gradient(180deg,
+  background: linear-gradient(120deg,
                               hsla(var(--hue), var(--sat), var(--lig), 1) 0%,
                               hsla(var(--hue), var(--sat), var(--lig), .2%) 100%);
-  border-radius: 50%;
+  border-radius: 30%;
   overflow: hidden;
   display: flex;
   align-items: flex-end;
@@ -63,14 +63,16 @@ img {
 }
 .profile__perfil img {
   width: 90px;
+  margin-bottom: 15px;
+  border-radius: 20px;
  
 }
 .profile__border{
   border: 3.5px solid var(--first-color);
   justify-self: center;
-  width: 115px;
-  height: 115px;
-  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border-radius: 30%;
   display: grid;
   place-items: center;
   margin-bottom: 0.75rem;
